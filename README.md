@@ -1,6 +1,7 @@
 # reflex-sales
 
-https://reflex.dev/docs/getting-started/installation/
+Doc : https://reflex.dev/docs/getting-started/installation/
+Demo : https://sales.reflex.run/
 
 Reflex is available as a pip package. Install Reflex in your environment:
 
@@ -11,6 +12,8 @@ Installing Reflex also installs the reflex command line tool. Test that the inst
 ```
 reflex init
 ```
+
+https://reflex.dev/docs/getting-started/configuration/
 
 ## First initialize the database:
 
