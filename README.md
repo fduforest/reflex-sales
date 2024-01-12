@@ -15,14 +15,32 @@ reflex init
 
 https://reflex.dev/docs/getting-started/configuration/
 
+Install virtual env
+
+```
+python3 -m venv env
+```
+
+Launch virtual env
+
+```
+source env/bin/activate
+```
+
+Install the dependencies
+
+```
+pip install -r requirements.txt
+```
+
+## Create a .env file with the OpenAI API Key
+copy the .env-exemple file, rename it to .env and add your key
+
 ## First initialize the database:
 
 ```
 reflex db init
 ```
-
-## Create a .env file with the OpenAI API Key
-copy the .env-exemple file, rename it to .env and add your key
 
 ## Run the App
 You can run this app in development mode:

@@ -1,8 +1,8 @@
 *.db
 *.py[cod]
+.env
+.idea
 .web
 __pycache__/
 reflex.db
-.env
-.idea
 venv
